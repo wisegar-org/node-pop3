@@ -8,6 +8,11 @@
     "build": "rimraf build && tsc",
     "promote": "npm run build && npm version prerelease && npm publish"
   },
+  "files": [
+    "build",
+    "docs",
+    "README.md"
+  ],
   "nyc": {
     "reporter": [
       "text",
