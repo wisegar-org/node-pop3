@@ -34,7 +34,7 @@ export interface IPop3ConnectionOptions {
   tlsOptions?: any;
 }
 
-class Pop3Connection extends EventEmitter {
+export class Pop3Connection extends EventEmitter {
   host: string;
   port: number;
   tls: any;
@@ -205,5 +205,3 @@ class Pop3Connection extends EventEmitter {
     });
   }
 }
-
-export default Pop3Connection;

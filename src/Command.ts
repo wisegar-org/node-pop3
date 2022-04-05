@@ -1,7 +1,7 @@
-import Pop3Connection, { IPop3ConnectionOptions } from "./Connection";
+import { IPop3ConnectionOptions, Pop3Connection } from "./Connection";
 import { stream2String, listify } from "./helper";
 
-class Pop3Command extends Pop3Connection {
+export class Pop3Command extends Pop3Connection {
   user: string;
   password: string;
   _PASSInfo: string;
@@ -86,9 +86,6 @@ class Pop3Command extends Pop3Connection {
     this._PASSInfo = info || "";
     return this._PASSInfo;
   }
+  stream2String = stream2String;
+  listify = listify;
 }
-
-Pop3Command.stream2String = stream2String;
-Pop3Command.listify = listify;
-
-export default Pop3Command;
