@@ -1,6 +1,6 @@
 {
   "name": "@wisegar-org/wgo-pop3",
-  "version": "0.0.7-build.4",
+  "version": "0.0.7-build.5",
   "description": "POP3 client for node",
   "main": "./build/index.js",
   "scripts": {
