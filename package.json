@@ -1,6 +1,6 @@
 {
   "name": "@wisegar-org/pop3",
-  "version": "0.0.7-build.2",
+  "version": "0.0.7-build.3",
   "description": "POP3 client for node",
   "main": "./build/Command.js",
   "scripts": {
