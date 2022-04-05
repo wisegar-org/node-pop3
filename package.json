@@ -2,7 +2,7 @@
   "name": "@wisegar-org/wgo-pop3",
   "version": "0.0.7-build.3",
   "description": "POP3 client for node",
-  "main": "./build/Command.js",
+  "main": "./build/index.js",
   "scripts": {
     "start": "",
     "build": "rimraf build && tsc",

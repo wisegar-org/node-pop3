@@ -1,6 +1,5 @@
-import Pop3Connection, { IPop3ConnectionOptions } from "./Connection.js";
-
-import { stream2String, listify } from "./helper.js";
+import Pop3Connection, { IPop3ConnectionOptions } from "./Connection";
+import { stream2String, listify } from "./helper";
 
 class Pop3Command extends Pop3Connection {
   user: string;

@@ -9,7 +9,7 @@ import {
   TERMINATOR_BUFFER,
   TERMINATOR_BUFFER_ARRAY,
   MULTI_LINE_COMMAND_NAME,
-} from "./constant.js";
+} from "./constant";
 
 export interface IPop3ConnectionOptions {
   user: string;
